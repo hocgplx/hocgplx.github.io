@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "note": "Display corrections of typos in the official text (decision D7). bank.json keeps the text as printed; the app replaces 'printed' with 'display' in the named field and tells the learner the text was corrected. 'printed' must occur exactly once in that field.",
+  "items": [
+    {
+      "id": 3,
+      "where": "answer",
+      "answer": 2,
+      "printed": "đường b ộ",
+      "display": "đường bộ",
+      "reason": "The word 'bộ' is broken across two lines in the PDF.",
+      "approvedOn": "2026-11-24"
+    },
+    {
+      "id": 150,
+      "where": "answer",
+      "answer": 4,
+      "printed": "kéo theo rơ moóc xi téc).",
+      "display": "kéo theo rơ moóc xi téc.",
+      "reason": "Closing bracket with no opening one.",
+      "approvedOn": "2026-11-24"
+    },
+    {
+      "id": 188,
+      "where": "answer",
+      "answer": 2,
+      "printed": "động mach)",
+      "display": "động mạch)",
+      "reason": "Missing tone mark: 'mạch'.",
+      "approvedOn": "2026-11-24"
+    },
+    {
+      "id": 215,
+      "where": "answer",
+      "answer": 1,
+      "printed": "bằng coi,",
+      "display": "bằng còi,",
+      "reason": "Missing tone mark: 'còi' (answer 2 of the same question prints it correctly).",
+      "approvedOn": "2026-11-24"
+    },
+    {
+      "id": 269,
+      "where": "answer",
+      "answer": 1,
+      "printed": "sản xuât.",
+      "display": "sản xuất.",
+      "reason": "Missing tone mark: 'xuất'.",
+      "approvedOn": "2026-11-24"
+    },
+    {
+      "id": 595,
+      "where": "question",
+      "printed": "dưới dây,",
+      "display": "dưới đây,",
+      "reason": "'dây' should be 'đây'.",
+      "approvedOn": "2026-11-24"
+    }
+  ]
+}
